@@ -598,7 +598,7 @@ body {
 }
 @media (max-width: 376px) {
     .select {
-        top: 30%;
+        top: 34%;
     }
 }
 .select-style{
@@ -631,25 +631,24 @@ body {
 .title{
     display: block;
     position: relative;
-    top: 30px;    
-    text-align: center;
+    top: 30px; 
+    margin-left: auto;
+    margin-right: auto;
     font-size: 30px;
     letter-spacing: 0.1em;
     font-weight: bolder;
     color: #559AC8;
+}
+.title p{
+    text-align: center;
 }
 .content{
     display: block;
     position: relative;
     max-width: 100%;
     text-align: center;
-    margin-left: -10px;
-}
-@media (max-width: 769px) {
-    .content {
-        max-width: 100%;
-        left: 2.5%;
-    }
+    margin-left: auto;
+    margin-right: auto;
 }
 .content p{
     text-align: left;
@@ -663,8 +662,7 @@ body {
     display: inline-block;
     position: relative;
     text-align: center;
-    margin: 60px 10px 0px 15px;
-    padding: 0px -5px 0px 0px;
+    margin: 60px 15px 0px 15px;
     width: 35%;
     border: 3px solid #fff;
     box-shadow: 1px 2px 5px #ccc;
